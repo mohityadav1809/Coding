@@ -1,7 +1,7 @@
 const bodyParser = require("body-parser");
 const express = require("express");
 const mysql = require("mysql");
-const swaggerSetup = require("./swagger");
+//const swaggerSetup = require("./swagger");
 const userRoutes = require("./routes/users");
 const { promisify } = require("util"); // Import promisify from util
 const app = express();
